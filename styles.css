@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 0%;
+}
+
+.logo img {
+    max-height: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #02020271;
+    padding: 15px;
+}
+
+.square {
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+.nav ul li {
+    padding: 10px;
+}
+
+.nav ul div img {
+    width: 45px;
+}
+
+.titulos a {
+    color: #333;
+    text-decoration: none;
+}
+
+.subtitulos a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
+
+.sign-in {
+    background: linear-gradient(transparent 30%, rgba(128, 128, 128, 0.556));
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.box {
+    border-left: 1px solid #00000078;
+    padding-top: 24px;
+    padding-left: 30px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 40px;
+    padding: 60px;
+    padding-left: 100px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0)),  url(https://images.pexels.com/photos/164501/pexels-photo-164501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+
+.content-box {
+    max-width: 500px;
+    width: 50%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.text-section {
+    width: 100%; 
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.text-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: montserrat;
+    font-weight: 300;
+}
+
+.text-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contraseña {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.input1 {
+    flex: 1;
+}
+
+form button {
+    padding: 10px;
+    background: linear-gradient(#0070ba 30%, #13173b);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.degradado {
+    background: linear-gradient(rgba(255, 255, 255, 0.170), transparent 5%, transparent 95%, rgba(255, 255, 255, 0.170));
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.regular-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.giant-text {
+    font-size: 50px;
+    font-family: monstserrat;
+    font-weight: b;
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+.FUT {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    color: #d9d9d9c5;
+}
+
+.FUT p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-top: 4px;
+}
+
+.payment-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-icons li img {
+    max-height: 30px;
+    width: 40px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    filter: brightness(100%) saturate(100%);
+    display: flex; 
+    gap: 10px; 
+    filter: invert(100%) contrast(40%) sepia(100%) brightness(100%) saturate(0%); 
+}
+
+.visa {
+    margin-top: 8px;
+}
+
+.american {
+    width: 30px;
+}
+
+.discover {
+    padding-top: 10px;
+}
+
+
+section div img {
+    width: 50px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.flechas1 img {
+    transform: rotate(180deg);
+}
+
+section {
+    display: flex;
+}
+
+.flechas2 img {
+    margin: auto;
+    align-self: flex-start;
+}
